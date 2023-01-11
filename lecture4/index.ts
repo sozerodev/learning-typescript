@@ -36,3 +36,33 @@ function func4(x: number | string): void {
     console.log(x + 3);
   }
 }
+
+// 숙제1
+function sayHello(name?: string): void {
+  if (name) {
+    console.log(name + "안뇽");
+  } else {
+    console.log("이름이 없어");
+  }
+}
+
+// 숙제2
+function numbering(inputNum: number | string): number {
+  if (typeof inputNum === "number") {
+    return inputNum.toString().length;
+  } else {
+    return inputNum.length;
+  }
+}
+
+// 숙제3
+function homewk3(salary: number, ownHouse: boolean, attrP: string) {
+  let score: number = 0;
+  score += salary;
+
+  if (ownHouse) score += 500;
+
+  if (attrP === "상") score += 100;
+
+  score > 599 ? "결혼가능" : null;
+}
