@@ -1,3 +1,6 @@
+/**
+ * 타입스크립트 기본 타입 정리(primitive types)
+ */
 let thisName: string = "kim";
 
 let age: number = 50;

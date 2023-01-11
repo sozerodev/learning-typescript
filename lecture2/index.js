@@ -1,3 +1,6 @@
+/**
+ * 타입스크립트 기본 타입 정리(primitive types)
+ */
 var thisName = "kim";
 var age = 50;
 var married = true;

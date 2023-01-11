@@ -1,3 +1,6 @@
+/**
+ * Typescript필수문법 10분 정리와 설치 셋팅
+ */
 let someName: string = "kim";
 let nameList: string[] = ["kim", "park"];
 

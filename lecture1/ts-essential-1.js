@@ -1,3 +1,6 @@
+/**
+ * Typescript필수문법 10분 정리와 설치 셋팅
+ */
 var someName = "kim";
 var nameList = ["kim", "park"];
 var thisObject = {
