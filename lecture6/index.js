@@ -28,10 +28,6 @@ var position = {
     x: 3,
     y: 6,
 };
-var position2 = {
-    x: 4,
-    y: 3,
-};
 var myList;
 // myList = ["a", "c"];
 myList = ["a"];

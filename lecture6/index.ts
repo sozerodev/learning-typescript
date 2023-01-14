@@ -81,10 +81,10 @@ type PositionYY = {
 };
 type NewPosition2 = PositionX & PositionY & PositionYY;
 
-const position2: NewPosition2 = {
-  x: 4,
-  y: 3,
-};
+// const position2: NewPosition2 = {
+//   x: 4,
+//   y: 2,
+// };
 
 // 숙제 2
 type homework2Type = {
