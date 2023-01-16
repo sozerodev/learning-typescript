@@ -38,7 +38,7 @@ function homework1(lst: (string | number)[]) {
     } else if (typeof element === "number") {
       return element;
     } else {
-      return null;
+      return 0;
     }
   });
 

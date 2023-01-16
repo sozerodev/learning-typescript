@@ -37,7 +37,7 @@ function homework1(lst) {
             return element;
         }
         else {
-            return null;
+            return 0;
         }
     });
     return new_lst;
