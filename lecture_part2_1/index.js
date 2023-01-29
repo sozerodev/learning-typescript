@@ -86,7 +86,7 @@ function myFunc_homework(_a) {
     console.log(user, comment, admin);
 }
 myFunc_homework({ user: "kim", comment: [3, 5, 4], admin: false });
-// 숙제3.
+// 숙제3. array destructuring은 자유작명이 가능
 function myFunc_homework3(_a) {
     var a = _a[0], b = _a[1], c = _a[2];
     console.log(a, b, c);

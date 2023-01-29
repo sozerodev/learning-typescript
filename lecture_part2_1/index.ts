@@ -93,7 +93,7 @@ function myFunc_homework({
 
 myFunc_homework({ user: "kim", comment: [3, 5, 4], admin: false });
 
-// 숙제3.
+// 숙제3. array destructuring은 자유작명이 가능
 function myFunc_homework3([a, b, c]: (number | string | boolean)[]) {
   console.log(a, b, c);
 }
