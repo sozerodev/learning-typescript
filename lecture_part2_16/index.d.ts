@@ -1,0 +1,16 @@
+declare type Age_2_16<T> = T extends string ? string : unknown;
+declare let a_2_16: Age_2_16<string>;
+declare let a_2_17: Age_2_16<number>;
+declare type FirstItem<T> = T extends string[] ? T[0] : any;
+declare let age1: FirstItem<string[]>;
+declare let age2: FirstItem<number>;
+declare type Person2_16<T> = T extends infer R ? R : unknown;
+declare type a_2_16_2 = Person2_16<string>;
+declare type 타입추출<T> = T extends (infer R)[] ? R : unknown;
+declare type a_2_16_3 = 타입추출<string[]>;
+declare type 타입추출2<T> = T extends () => infer R ? R : unknown;
+declare type a_2_16_4 = 타입추출2<() => void>;
+declare type b_2_16 = ReturnType<() => void>;
+declare type Homework2_16<T> = T extends [string, ...any] ? T[0] : unknown;
+declare let age2_16_1: Homework2_16<[string, number]>;
+declare let age2_16_2: Homework2_16<[boolean, number]>;

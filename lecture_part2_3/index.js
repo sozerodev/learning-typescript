@@ -4,7 +4,7 @@
 // function return 값에 붙일 수 있는 never type
 // 조건1. return값이 없어야 함
 // 조건2. endpoint가 없어야 함
-function myFunc5() {
+function myFunc5_2() {
     // 끝나지 않는 함수가 뭘까? endpoint가 없는 함수?
     // 1.
     //   throw new Error();

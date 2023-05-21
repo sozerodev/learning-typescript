@@ -3,7 +3,9 @@
     "target": "es5", // 어떤 버전의 자바스크립트로 바꿔줄지 정하는 부분. esnext는 최신 자바스크립트를 의미
     "module": "commonjs", // 자바스크립트 파일 간 import문법 구현할 때 어떤거 쓸지 정함 (commonjs는 require, es2015,esnext는 import)
     // "noImplicitAny": true, // any라는 타입이 의도치 않게 발생할 경우 에러를 띄워주는 설정
-    "strictNullChecks": true // null, undefined 타입에 이상한 조작하면 에러를 띄워줌
+    "strictNullChecks": true, // null, undefined 타입에 이상한 조작하면 에러를 띄워줌
+    "declaration": true, // 자동으로 index.d.ts 파일을 생성한다.
+    "typeRoots": ["./types/common"] // 여기 있는 타입들은 글로벌하게 이용 가능
   }
   // 어느정도 IE 호환성을 원한다면 es5, commonjs가 좋다.
   //  https://www.typescriptlang.org/tsconfig 여기서도 구경 가능

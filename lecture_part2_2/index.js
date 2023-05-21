@@ -32,7 +32,7 @@ function myFunc4(animal) {
 var thisDate = new Date();
 if (thisDate instanceof Date) {
 }
-function thisFunc(x) {
+function thisFunc_3(x) {
     // 둘다 똑같은 속성이므로
     // 속성명 in 오브젝트자료 -> 불가
     // 오브젝트 instanceof 부모class -> 불가

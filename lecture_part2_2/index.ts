@@ -52,7 +52,7 @@ type Bike = {
   color: string;
 };
 
-function thisFunc(x: Car1 | Bike) {
+function thisFunc_3(x: Car1 | Bike) {
   // 둘다 똑같은 속성이므로
   // 속성명 in 오브젝트자료 -> 불가
   // 오브젝트 instanceof 부모class -> 불가

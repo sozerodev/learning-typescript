@@ -15,14 +15,14 @@ itisme = "대머리";
 itisme = "솔로";
 // itisme = '머털';
 
-function myFunc2(a: "hello"): 1 | 0 {
+function myFunc2_2(a: "hello"): 1 | 0 {
   //   return 3;
   return 1;
 
   // return 되는 요소도 제한 가능
 }
 
-myFunc2("hello");
+myFunc2_2("hello");
 // myFunc("hello0");
 // 함수 파라미터에 들어올만한 요소를 제한할 수도 있다.
 
